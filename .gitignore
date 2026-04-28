@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.venv
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# Data (only raw data should be tracked)
+data/processed/
+data/partitioned/
+!data/raw/.gitkeep
+
+# Results (generated during execution)
+results/
+models/
+eda_plots/
+training_plots/
+federated_learning_results/
+*.png
+*.jpg
+*.csv (except config)
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Project specific
+cleaned_nbaiot_combined.csv
+*.pkl
+*.h5
+*.joblib
+
+# Keep only essential files
+!data/raw/.gitkeep
+!results/.gitkeep

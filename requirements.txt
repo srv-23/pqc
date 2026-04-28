@@ -1,0 +1,19 @@
+# Federated Learning for IoT Anomaly Detection - Requirements
+# Python 3.10+
+
+# Data Processing & Analysis
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Federated Learning Framework
+flwr>=1.0.0
+
+# Post-Quantum Cryptography
+pqcrypto>=1.1.0
